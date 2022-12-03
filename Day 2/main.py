@@ -9,19 +9,19 @@ score = {
   "Z": 3
 }
 win = {
-  "A": 8,
-  "B": 9,
-  "C": 7
+  "A": 8,  # win plus Paper
+  "B": 9,  # win plus Scissors
+  "C": 7   # win plus Rock
 }
 draw = {
-  "A": 4,
-  "B": 5,
-  "C": 6
+  "A": 4,  # draw plus Rock
+  "B": 5,  # draw plus Paper
+  "C": 6   # draw plus Scissors
 }
 lose = {
-  "A": 3,
-  "B": 1,
-  "C": 2
+  "A": 3,  # lose plus Scissors
+  "B": 1,  # lose plus Rock
+  "C": 2   # lose plug Scissors
 }
 
 def main():
