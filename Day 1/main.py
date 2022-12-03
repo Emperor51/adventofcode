@@ -22,6 +22,5 @@ def main():
         elfs.pop(elfs.index(max(elfs)))
     print("Combined, the top three elves have", topThree, "calories.")
 
-
 if __name__ == '__main__':
     main()
