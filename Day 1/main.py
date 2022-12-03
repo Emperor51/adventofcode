@@ -13,7 +13,15 @@ def main():
         else:
             elfs.append(sum)
             sum = 0
-    print(max(elfs), elfs.index(max(elfs)))
+    #Part 1 Answer
+    print("The elf with the most calories is number", elfs.index(max(elfs)), "and they have", max(elfs), "calories.")
+    #Part 2 Answer
+    topThree = 0
+    for x in range (0,3,1):
+        topThree += max(elfs)
+        elfs.pop(elfs.index(max(elfs)))
+    print("Combined, the top three elves have", topThree, "calories.")
+
 
 if __name__ == '__main__':
     main()
