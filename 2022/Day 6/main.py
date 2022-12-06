@@ -17,10 +17,5 @@ def main():
                 print(chars)
                 break
 
-
-
-
-
-
 if __name__ == "__main__":
     main()
