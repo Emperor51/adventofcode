@@ -8,6 +8,7 @@ def main():
     lines = importedFile.readlines()
     line = lines[0]
 
+    #Change 14 to 4 for Pt 1
     for x in range(0, len(line)-14, 1):
         chars = []
         for y in range(0, 14, 1):
